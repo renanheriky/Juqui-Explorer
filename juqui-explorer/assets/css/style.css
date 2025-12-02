@@ -1,1 +1,208 @@
-/* Juqui Explorer CSS - preencha com o código que o ChatGPT enviar */
+/* 🌿 JUQUI EXPLORER - ESTILOS GERAIS 🌿 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: #ecf5f0;
+    color: #1c2e21;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    background: #0b3d2a;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .logo img {
+    width: 45px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+.nav a:hover,
+.nav a.ativo {
+    text-decoration: underline;
+    color: #4af29e;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 20px;
+    background: #138a5a;
+    color: white;
+}
+
+.hero-texto {
+    max-width: 55%;
+}
+
+.hero-texto h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.hero-texto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-principal {
+    background: #0b3d2a;
+    color: white;
+}
+
+.btn-secundario {
+    background: white;
+    color: #0b3d2a;
+    border: 2px solid #0b3d2a;
+}
+
+.hero-imagem img {
+    width: 320px;
+    border-radius: 12px;
+}
+
+/* CARROSSEL */
+.carrossel {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.carrossel-box img {
+    width: 200px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+/* DESTAQUES */
+.destaques {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 180px;
+    text-decoration: none;
+    color: #0b3d2a;
+    border-radius: 10px;
+    border: 2px solid #13a16a;
+    transition: .2s;
+    font-size: 16px;
+}
+
+.card:hover {
+    background: #13a16a;
+    color: white;
+}
+
+/* PARCEIROS */
+.parceiros {
+    background: #fff;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.parceiros-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.parceiro-card {
+    width: 210px;
+    background: #f0f7f3;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #138a5a;
+}
+
+.parceiro-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.parceiro-card a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #0b3d2a;
+    font-weight: bold;
+}
+
+.parceiro-card a:hover {
+    color: #138a5a;
+}
+
+/* RODAPÉ */
+.footer {
+    background: #0b3d2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-texto {
+        max-width: 100%;
+    }
+    .hero-imagem img {
+        width: 90%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+}
