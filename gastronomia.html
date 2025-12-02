@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gastronomia & hospedagem - Juqui Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-area">
+      <div class="logo-avatar">
+        <img src="https://images.pexels.com/photos/5099825/pexels-photo-5099825.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Juka, a capivara exploradora">
+      </div>
+      <div class="logo-text">
+        <span>Juqui Explorer</span>
+        <span>Ecoturismo digital em Juquitiba/SP</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="">Home</a>
+      <a href="pontos.html" class="">Pontos</a>
+      <a href="gastronomia.html" class="ativo">Gastronomia</a>
+      <a href="loja.html" class="">Loja</a>
+      <a href="sobre.html" class="">Sobre</a>
+      <a href="contato.html" class="">Contato</a>
+    </nav>
+  </header>
+
+<main>
+  <section>
+    <h2><span class="icon">🍲</span>Gastronomia & hospedagem</h2>
+    <p>Seleção de opções para comer bem e descansar com tranquilidade em Juquitiba. Os estabelecimentos abaixo representam o tipo de experiência que o Juqui Explorer busca destacar.</p>
+    <div class="cards-grid">
+      <div class="card">
+        <strong>Pousada Mata Atlântica</strong>
+        Hospedagem integrada à natureza, próxima a trilhas e cachoeiras, com café da manhã regional e atendimento familiar.
+      </div>
+      <div class="card">
+        <strong>Restaurante Sabor de Juquitiba</strong>
+        Comida caseira, pratos típicos e opções vegetarianas, ideal para repor as energias após as aventuras.
+      </div>
+      <div class="card">
+        <strong>Café do Mirante</strong>
+        Café com vista panorâmica, oferecendo bebidas quentes, lanches e doces artesanais.
+      </div>
+      <div class="card">
+        <strong>Camping Rio Verde</strong>
+        Estrutura simples e acolhedora para quem prefere acampar perto dos pontos de visitação.
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <p>Juqui Explorer © 2025 — Ecoturismo Digital em Juquitiba/SP</p>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botões fixos -->
+  <button class="juka-btn" id="jukaBtn"><span>Juka</span></button>
+  <button class="audio-toggle" id="audioToggle">▶ Som da natureza</button>
+
+  <!-- Chat da Juka -->
+  <div class="juka-chat" id="jukaChat">
+    <div class="juka-header">
+      <div class="juka-avatar-small">
+        <img src="https://images.pexels.com/photos/5099825/pexels-photo-5099825.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Juka, a capivara exploradora">
+      </div>
+      <div>
+        <div class="juka-title">Juka, a capivara exploradora</div>
+        <small>Posso te ajudar com Juquitiba :)</small>
+      </div>
+      <button class="juka-close" id="jukaClose">&times;</button>
+    </div>
+    <div class="juka-body" id="jukaBody">
+      <div class="msg msg-juka">
+        Oi! Eu sou a Juka 🐾<br>
+        Posso te contar sobre:<br>
+        • História de Juquitiba<br>
+        • Pontos turísticos<br>
+        • Dicas de segurança<br>
+        • O projeto Juqui Explorer
+      </div>
+    </div>
+    <div class="juka-actions">
+      <button class="chip" data-topic="historia">História de Juquitiba</button>
+      <button class="chip" data-topic="passeio">Sugestão de passeio</button>
+      <button class="chip" data-topic="seguranca">Dicas de segurança</button>
+      <button class="chip" data-topic="projeto">Sobre o projeto</button>
+    </div>
+  </div>
+
+  <audio id="ambientAudio" loop>
+    <source src="https://samplelib.com/lib/preview/mp3/sample-6s.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
