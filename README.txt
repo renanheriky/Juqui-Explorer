@@ -1,0 +1,1 @@
+Coloque aqui as imagens reais (juka.png, pontos/*.jpg, parceiros/*.png) antes de gerar o ZIP final para o GitHub.
